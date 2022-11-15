@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "usersskillpycharmprojectsapi"
+version = "0.1.0"
+description = ""
+authors = ["Fatalwgx <nothingfatalleo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.2.0"
+requests = "^2.28.1"
+voluptuous = "^0.13.1"
+pytest-voluptuous = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
